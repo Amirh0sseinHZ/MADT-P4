@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteNoteActivity">
+    <TextView
+        android:id="@+id/lblNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C31717"
+        android:text="@string/notes_text"
+        android:textSize="24sp"
+        android:textColor="#EBEBEB"
+        android:padding="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/lblDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#616161"
+        android:text="@string/notes_text_desc"
+        android:textSize="13sp"
+        android:textColor="#EBEBEB"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblNotes" />
+
+    <ListView
+        android:id="@+id/lvNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECECEC"
+        app:layout_constraintTop_toBottomOf="@+id/lblDesc"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

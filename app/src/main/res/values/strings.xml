@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MADT-P4</string>
+    <string name="notes_text">List of Notes</string>
+    <string name="notes_text_desc">Hold your finger to remove notes</string>
+    <string name="add_note">Add Note</string>
+    <string name="delete_note">Delete Note</string>
+    <string name="save_and_close">Save and close</string>
+    <string name="note_title_placeholder">Title…</string>
+    <string name="note_body_placeholder">Write something…</string>
+    <string name="empty_list">Empty…</string>
+    <string name="error_cannot_be_emoty">cannot be empty!</string>
+    <string name="list_note">Notes List</string>
+    <string name="delete_title">Delete?</string>
+    <string name="delete_confirmation">Are you sure about deleting this note? This action cannot be reverted.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
